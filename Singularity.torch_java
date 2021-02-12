@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: docker pull pytorch/pytorch
+From: pytorch/pytorch
 
 %labels
     Maintainer Jack J Amend
