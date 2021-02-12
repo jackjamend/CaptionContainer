@@ -1,0 +1,9 @@
+Bootstrap: docker
+From: docker pull pytorch/pytorch
+
+%labels
+    Maintainer Jack J Amend
+
+%post
+    apt install openjdk-8-jre-headless
+
