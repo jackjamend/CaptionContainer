@@ -7,3 +7,4 @@ From: docker pull pytorch/pytorch
 %post
     apt install openjdk-8-jre-headless
 
+
