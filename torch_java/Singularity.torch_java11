@@ -1,0 +1,9 @@
+	
+Bootstrap: docker
+From: pytorch/pytorch
+ 
+ 
+%labels
+    Maintainer Jack J Amend
+%post
+    apt-get install openjdk-11-jre-headless 
