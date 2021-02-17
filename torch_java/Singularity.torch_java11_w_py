@@ -1,0 +1,13 @@
+
+Bootstrap: docker
+From: pytorch/pytorch
+
+
+%labels
+    Maintainer Jack J Amend
+%post
+	apt-get update
+    apt-get -y install openjdk-11-jre-headless
+    apt-get -y install python-dev
+    pip install --user scikit-image
+    pip install --user pycocoeval
