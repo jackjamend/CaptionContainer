@@ -9,5 +9,5 @@ From: pytorch/pytorch
 	apt-get update
     apt-get -y install openjdk-11-jre-headless
     apt-get -y install python-dev
-    python3 -m pip install --user scikit-image
-    python3 -m pip install --user pycocoeval
+    python -m pip install --user scikit-image
+    python -m pip install --user pycocoeval
