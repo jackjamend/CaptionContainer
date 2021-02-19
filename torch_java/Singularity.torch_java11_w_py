@@ -1,7 +1,6 @@
 Bootstrap: docker
 From: pytorch/pytorch
 
-
 %labels
     Maintainer Jack J Amend
 %post
