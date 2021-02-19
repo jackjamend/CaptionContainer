@@ -10,4 +10,4 @@ From: pytorch/pytorch
     apt-get -y install python3-dev
     apt-get -y install python3-pip
     python3 -m pip install --user scikit-image
-    python3 -m pip install --user pycocoeval
+    python3 -m pip install --user pycocoevalcap
