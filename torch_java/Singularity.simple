@@ -1,0 +1,12 @@
+
+Bootstrap: docker
+From: pytorch/pytorch
+
+
+%labels
+    Maintainer Jack J Amend
+%post
+    apt-get update
+    apt-get -y install openjdk-11-jre-headless
+    python3 -m pip install scikit-image
+    python3 -m pip install pycocoevalcap
